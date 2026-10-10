@@ -1,0 +1,14 @@
+{
+  "method": "GloVe",
+  "source": "glove-wiki-gigaword-100",
+  "embedding_dim": 100,
+  "vocab_size": 10000,
+  "covered_words": 9911,
+  "missing_words": 87,
+  "vocabulary_coverage_percent": 99.12982596519304,
+  "missing_word_initialization": "Normal(0, 0.1)",
+  "unknown_token_initialization": "Normal(0, 0.1)",
+  "padding_initialization": "zeros",
+  "random_seed": 42,
+  "embedding_frozen": true
+}

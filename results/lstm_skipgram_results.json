@@ -1,0 +1,37 @@
+{
+  "model": "LSTM Frozen Skip-gram",
+  "embedding_type": "self_trained_skipgram",
+  "embedding_frozen": true,
+  "total_parameters": 2407760,
+  "trainable_parameters": 1407760,
+  "best_epoch": 5,
+  "best_val_loss": 4.92204221215734,
+  "best_val_perplexity": 137.28268747692567,
+  "test_loss": 4.836079343712518,
+  "test_perplexity": 125.97447961672403,
+  "lm_training_time_seconds": 1410.2509797000093,
+  "embedding_training_time_seconds": 41.76,
+  "history": {
+    "train_loss": [
+      5.89174981825343,
+      5.298275813775003,
+      5.0886258853656425,
+      4.96410192330366,
+      4.872710437479582
+    ],
+    "val_loss": [
+      5.3744570056282255,
+      5.146279531807381,
+      5.038898426919538,
+      4.964614271743023,
+      4.92204221215734
+    ],
+    "epoch_time": [
+      265.76369250001153,
+      296.3974622999958,
+      276.4908579000039,
+      288.1488817000063,
+      283.45008529999177
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "model": "LSTM",
+  "embedding_dim": 100,
+  "hidden_dim": 128,
+  "num_layers": 1,
+  "parameters": 2407760,
+  "epochs": 5,
+  "best_epoch": 5,
+  "best_val_loss": 4.954773521665932,
+  "best_val_perplexity": 141.85047667511145,
+  "test_loss": 4.878958038298698,
+  "test_perplexity": 131.4935812051982,
+  "test_evaluation_time_seconds": 6.1313771000131965,
+  "training_time_seconds": 1484.5639299000177,
+  "history": {
+    "train_loss": [
+      5.848007221393853,
+      5.301163951834753,
+      5.1000769400172,
+      4.968696249040364,
+      4.8684483875685025
+    ],
+    "val_loss": [
+      5.364739201551566,
+      5.164932762989648,
+      5.067836971174506,
+      4.999650559132102,
+      4.954773521665932
+    ],
+    "epoch_time": [
+      327.06576929999574,
+      303.82392330000584,
+      284.39084380000713,
+      285.6355878000031,
+      283.64780570000585
+    ]
+  },
+  "generated_samples": {
+    "the game": "the game , \" it was never thought that her \" was a <unk> . \" = = = = = <unk> and career = = = \" the <unk> , '",
+    "in the": "in the <unk> . it was also to get at the end of <unk> . the <unk> was a <unk> in <unk> , which he had to <unk> the series , but",
+    "the history of": "the history of the first season of <unk> to the end of the 20th century . the <unk> was a <unk> in <unk> , which he had to <unk> the series , but"
+  }
+}

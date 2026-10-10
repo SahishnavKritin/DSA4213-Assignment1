@@ -1,0 +1,27 @@
+{
+  "dataset": "IMDb",
+  "train_size": 4000,
+  "validation_size": 1000,
+  "test_size": 1000,
+  "max_review_tokens": 256,
+  "context_length": 32,
+  "pooling": "mean",
+  "classifier": "Logistic Regression",
+  "random_seed": 42,
+  "lstm": {
+    "representation_dim": 128,
+    "test_accuracy": 0.672,
+    "test_macro_f1": 0.6719986879947519
+  },
+  "transformer": {
+    "representation_dim": 100,
+    "test_accuracy": 0.681,
+    "test_macro_f1": 0.68099202480062
+  },
+  "error_analysis": {
+    "both_correct": 560,
+    "both_wrong": 207,
+    "only_lstm_correct": 112,
+    "only_transformer_correct": 121
+  }
+}

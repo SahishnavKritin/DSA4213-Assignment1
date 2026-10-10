@@ -1,0 +1,45 @@
+{
+  "model": "Causal Transformer",
+  "embedding_dim": 100,
+  "num_heads": 4,
+  "num_layers": 2,
+  "ff_dim": 256,
+  "context_length": 32,
+  "parameters": 2197912,
+  "epochs": 5,
+  "best_epoch": 5,
+  "best_val_loss": 4.822063271735004,
+  "best_val_perplexity": 124.22112849461587,
+  "test_loss": 4.7388886599384445,
+  "test_perplexity": 114.30709700875808,
+  "test_evaluation_time_seconds": 7.93643269999302,
+  "training_time_seconds": 1904.796508599975,
+  "history": {
+    "train_loss": [
+      5.677100038428795,
+      5.137329969970997,
+      4.919161970819665,
+      4.782727723305917,
+      4.6852221044701805
+    ],
+    "val_loss": [
+      5.2013348852394765,
+      5.006285716722812,
+      4.9161088476990145,
+      4.85614632375758,
+      4.822063271735004
+    ],
+    "epoch_time": [
+      384.88926909997826,
+      386.4875789999787,
+      391.69991019999725,
+      377.36289640000905,
+      364.35685390001163
+    ]
+  },
+  "generated_samples": {
+    "the game": "the game , where he was <unk> to get away to be <unk> and <unk> . his fellow <unk> in september 2011 , a win for six weeks in a 3 –",
+    "in the": "in the next day . he also took out at the end of the war , his son , as in his own birthday after his retirement , and his wife ,",
+    "the history of": "the history of the first season of the season , with a number of <unk> . the game features a 4 @.@ 1 rating of 13 @,@ <unk> , and a 3 –"
+  }
+}

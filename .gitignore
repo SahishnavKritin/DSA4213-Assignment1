@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Downloaded and processed datasets
+data/
+
+# Large trained model files
+models/*.pt
+models/*.pkl
+models/*.model
+models/*.joblib
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# Keep source code, notebooks, figures and results
+!results/
+!src/
+!notebooks/
+results.zip

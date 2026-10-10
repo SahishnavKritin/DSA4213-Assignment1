@@ -1,0 +1,33 @@
+{
+  "Trigram": {
+    "test_ppl": 158.38,
+    "test_loss": 5.065,
+    "inference_time": 0.01698200000100769,
+    "throughput": 589800.9656934203,
+    "memory_mb_approx": 320.13
+  },
+  "RNN": {
+    "test_ppl": 128.39,
+    "test_loss": 4.855,
+    "training_minutes": 23.56,
+    "parameters": 2319440,
+    "inference_time_seconds": 0.1980076000036206,
+    "tokens_per_second": 50583.91698003943
+  },
+  "LSTM": {
+    "test_ppl": 131.49,
+    "test_loss": 4.879,
+    "training_minutes": 24.74,
+    "parameters": 2407760,
+    "inference_time_seconds": 0.14138269997783937,
+    "tokens_per_second": 70843.17955145806
+  },
+  "Transformer": {
+    "test_ppl": 114.31,
+    "test_loss": 4.7389,
+    "training_minutes": 31.75,
+    "parameters": 2197912,
+    "inference_time_seconds": 0.12007350000203587,
+    "tokens_per_second": 83415.57462579318
+  }
+}

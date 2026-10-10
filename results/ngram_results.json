@@ -1,0 +1,15 @@
+{
+  "model": "Interpolated Trigram",
+  "test_loss": 5.0612,
+  "test_perplexity": 157.77,
+  "model_memory_mb_approx": 320.13,
+  "inference_time_seconds": 0.022,
+  "inference_tokens_per_second": 453582.62,
+  "inference_tokens": 10000,
+  "counting_time_seconds": 1.2784480999980588,
+  "interpolation_weights": [
+    0.2,
+    0.4,
+    0.4
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "method": "Skip-gram with Negative Sampling",
+  "dataset": "WikiText-2 training split",
+  "vocab_size": 10000,
+  "embedding_dim": 100,
+  "window": 5,
+  "negative_samples": 5,
+  "epochs": 5,
+  "seed": 42,
+  "training_time_seconds": 41.75887649998185,
+  "words_learned": 9999,
+  "missing_non_padding_words": 0
+}
